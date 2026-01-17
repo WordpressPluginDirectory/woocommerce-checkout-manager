@@ -5,7 +5,7 @@ Tags: woocommerce checkout, checkout editor, checkout fields, checkout manager, 
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.9
-Stable tag: 7.8.5
+Stable tag: 7.8.6
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -143,6 +143,14 @@ In the meantime, you can still use the plugin by ensuring your checkout page use
 10. Manage uploaded files in the order admin dashboard.
 
 == Changelog ==
+
+= 7.8.6 =
+* Security: CVE-2025-13930 - Fixed missing authorization to unauthenticated arbitrary attachment deletion
+* Security: Added proper order key validation for guest order attachment deletion
+* Security: Corrected inverted login check that was preventing proper authorization
+* Fix: Guest users can now delete their order attachments with proper authorization
+* Improvement: Enhanced security with timing-safe order key comparison using hash_equals()
+* Improvement: Added email verification as additional security layer for guest orders
 
 = 7.8.5 =
 * Fix: CVE-2025-13965 - Fixed WooCommerce order key check in AJAX context
