@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'quadlayers/woocommerce-checkout-manager',
-        'pretty_version' => 'v7.8.6',
-        'version' => '7.8.6.0',
-        'reference' => 'b350851e8af4e6e862fde8d61718565f9f349efe',
+        'pretty_version' => 'v7.8.8',
+        'version' => '7.8.8.0',
+        'reference' => 'aa629280190173095357e9efb0eaa6916a43d03d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/jetpack-assets' => array(
-            'pretty_version' => 'v4.3.19',
-            'version' => '4.3.19.0',
-            'reference' => '8ea6849ac53ca145f9196cb1e9a27c1a4a442330',
+            'pretty_version' => 'v4.3.27',
+            'version' => '4.3.27.0',
+            'reference' => '18dcc3fad9754d61070083855ea5cc57c3eaae83',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-assets',
             'aliases' => array(),
@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'quadlayers/woocommerce-checkout-manager' => array(
-            'pretty_version' => 'v7.8.6',
-            'version' => '7.8.6.0',
-            'reference' => 'b350851e8af4e6e862fde8d61718565f9f349efe',
+            'pretty_version' => 'v7.8.8',
+            'version' => '7.8.8.0',
+            'reference' => 'aa629280190173095357e9efb0eaa6916a43d03d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
